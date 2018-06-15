@@ -1,0 +1,30 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1529059218163)
++++ .idea/vcs.xml	(date 1529059218163)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: CMakeLists.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CMakeLists.txt	(date 1529074351000)
++++ CMakeLists.txt	(date 1529079886599)
+@@ -3,4 +3,4 @@
+ 
+ set(CMAKE_CXX_STANDARD 11)
+ 
+-add_executable(C_Project01 main.cpp dome/01/lp_Climb_the_stairs.cpp dome/01/lp_Climb_the_stairs.h dome/02/findSqrt.cpp dome/02/findSqrt.h dome/03/oneByOne.cpp dome/03/oneByOne.h)
+\ No newline at end of file
++add_executable(C_Project01 main.cpp dome/01/lp_Climb_the_stairs.cpp dome/01/lp_Climb_the_stairs.h)
+\ No newline at end of file
